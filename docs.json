@@ -90,12 +90,15 @@
           {
             "group": "FISIO",
             "pages": [
-              "en/fisio/guide"
+              "en/fisio/guide",
+              "en/fisio/decisions"
             ]
           },
           {
             "group": "Help",
-            "pages": []
+            "pages": [
+              "en/help/faq"
+            ]
           }
         ]
       }
