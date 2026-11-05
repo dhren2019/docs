@@ -111,5 +111,21 @@
       "chatgpt"
     ]
   },
-  "description": "Guía de uso de LIMINAL para tatuadores. Fichas técnicas, Color Engine, Piel Viva y FISIO."
+  "description": "Guía de uso de LIMINAL para tatuadores. Fichas técnicas, Color Engine, Piel Viva y FISIO.",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "href": "/es/inicio",
+        "label": "Español"
+      },
+      {
+        "href": "/en/overview",
+        "label": "English"
+      }
+    ]
+  }
 }
