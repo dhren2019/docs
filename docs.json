@@ -1,72 +1,115 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "LIMINAL",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#12B8CE",
+    "light": "#008FA6",
+    "dark": "#59DDE9"
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
+    "languages": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
+        "language": "es",
+        "groups": [
+          {
+            "group": "Inicio",
+            "pages": [
+              "es/inicio",
+              "es/primeros-pasos"
+            ]
+          },
+          {
+            "group": "Ficha técnica",
+            "pages": [
+              "es/ficha/crear",
+              "es/ficha/revisar"
+            ]
+          },
+          {
+            "group": "Color Engine",
+            "pages": [
+              "es/color/guia",
+              "es/color/mezclas"
+            ]
+          },
+          {
+            "group": "Piel Viva",
+            "pages": [
+              "es/piel-viva/guia",
+              "es/piel-viva/comparar"
+            ]
+          },
+          {
+            "group": "FISIO",
+            "pages": [
+              "es/fisio/guia",
+              "es/fisio/criterio"
+            ]
+          },
+          {
+            "group": "Ayuda",
+            "pages": [
+              "es/ayuda/preguntas-frecuentes"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "Start here",
+            "pages": [
+              "en/overview",
+              "en/get-started"
+            ]
+          },
+          {
+            "group": "Technical sheets",
+            "pages": [
+              "en/sheets/create",
+              "en/sheets/review"
+            ]
+          },
+          {
+            "group": "Color Engine",
+            "pages": [
+              "en/color/guide",
+              "en/color/mixing"
+            ]
+          },
+          {
+            "group": "Piel Viva",
+            "pages": [
+              "en/piel-viva/guide",
+              "en/piel-viva/compare"
+            ]
+          },
+          {
+            "group": "FISIO",
+            "pages": [
+              "en/fisio/guide",
+              "en/fisio/decisions"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "en/help/faq"
+            ]
+          }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
+    ]
   },
   "contextual": {
     "options": [
       "copy",
       "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+      "chatgpt"
     ]
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
+  "description": "Guía de uso de LIMINAL para tatuadores. Fichas técnicas, Color Engine, Piel Viva y FISIO."
 }
