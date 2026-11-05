@@ -15,27 +15,44 @@
         "groups": [
           {
             "group": "Inicio",
-            "pages": []
+            "pages": [
+              "es/inicio",
+              "es/primeros-pasos"
+            ]
           },
           {
             "group": "Ficha técnica",
-            "pages": []
+            "pages": [
+              "es/ficha/crear",
+              "es/ficha/revisar"
+            ]
           },
           {
             "group": "Color Engine",
-            "pages": []
+            "pages": [
+              "es/color/guia",
+              "es/color/mezclas"
+            ]
           },
           {
             "group": "Piel Viva",
-            "pages": []
+            "pages": [
+              "es/piel-viva/guia",
+              "es/piel-viva/comparar"
+            ]
           },
           {
             "group": "FISIO",
-            "pages": []
+            "pages": [
+              "es/fisio/guia",
+              "es/fisio/criterio"
+            ]
           },
           {
             "group": "Ayuda",
-            "pages": []
+            "pages": [
+              "es/ayuda/preguntas-frecuentes"
+            ]
           }
         ]
       },
@@ -44,23 +61,37 @@
         "groups": [
           {
             "group": "Start here",
-            "pages": []
+            "pages": [
+              "en/overview",
+              "en/get-started"
+            ]
           },
           {
             "group": "Technical sheets",
-            "pages": []
+            "pages": [
+              "en/sheets/create",
+              "en/sheets/review"
+            ]
           },
           {
             "group": "Color Engine",
-            "pages": []
+            "pages": [
+              "en/color/guide",
+              "en/color/mixing"
+            ]
           },
           {
             "group": "Piel Viva",
-            "pages": []
+            "pages": [
+              "en/piel-viva/guide",
+              "en/piel-viva/compare"
+            ]
           },
           {
             "group": "FISIO",
-            "pages": []
+            "pages": [
+              "en/fisio/guide"
+            ]
           },
           {
             "group": "Help",
